@@ -1,0 +1,25 @@
+.wrapper {
+    box-sizing: border-box;
+    background-color: lightgray;
+    display: flex;
+    
+    div {
+      p {
+        float: left;
+        padding: 0 .5em;
+      }
+    }
+    
+    ul {
+      list-style-type: none;
+      width: 100%;
+      li {
+        float: right;
+        a {
+          padding: 0 .5em;
+          text-decoration: none;
+        }
+      }
+    }
+    
+  }
